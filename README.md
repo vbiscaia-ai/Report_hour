@@ -20,7 +20,7 @@ Este projeto tem como objetivo integrar uma instância do MySQL na Azure com o P
 ---
 
 ## 🔗 Conexão com o Banco de Dados  
-![print2b](./Docs/print2b.jpeg)
+![print2b](./Docs/print2b.jpg)
 
 ### 2. Conexão via Cloud Shell
 
@@ -32,8 +32,9 @@ Este projeto tem como objetivo integrar uma instância do MySQL na Azure com o P
 
 ### 5. Conexão com MySQL no Power BI
 - Fonte de dados configurada
+- Print da tela de navegação no Power BI
 
-![print3](./Docs/print3.jpeg)
+![print3](./Docs/print3.jpg)
 
 ---
 
@@ -42,10 +43,10 @@ Este projeto tem como objetivo integrar uma instância do MySQL na Azure com o P
 ### 6. Verificação de Cabeçalhos e Tipos
 
 ### 7. Tratamento de Valores Monetários  
-![print4](./Docs/print4.jpeg)
+![print4](./Docs/print4.jpg)
 
 ### 8. Tratamento de Nulos  
-![print5](./Docs/print5.jpeg)
+![print5](./Docs/print5.jpg)
 
 Alguns colaboradores estavam em departamentos ainda sem funcionários ativos. Para evitar que esses registros aparecessem como vazios, atribuímos o próprio colaborador como gerente temporário. Isso mantém a estrutura do modelo e facilita futuras atualizações.
 
@@ -54,12 +55,12 @@ Alguns colaboradores estavam em departamentos ainda sem funcionários ativos. Pa
 ## 🔗 Mesclas e Modelagem
 
 ### 9. Mescla de Employee + Department  
-![print6](./Docs/print6.jpeg)
+![print6](./Docs/print6.jpg)
 
 Além da mescla entre `employee` e `department`, integrei também com `project` para obter o nome do projeto e com `works_on` para trazer as horas trabalhadas por colaborador. Mantive a coluna `salary`, pois pode ser útil em análises futuras.
 
 ### 10. Mescla de Employee + Gerente  
-![print7](./Docs/print7.jpeg)
+![print7](./Docs/print7.jpg)
 
 Para agrupar os colaboradores por gerente, foi necessário realizar uma mescla e aplicar um agrupamento. A intenção era exibir os nomes dos funcionários em linhas aninhadas por gerente, conforme exemplo proposto. No entanto, após diversas tentativas, identifiquei que a versão atual do Power BI não oferece suporte direto para esse tipo de visualização. Adotei alternativas para representar essa relação de forma clara e funcional.
 
@@ -71,7 +72,7 @@ Para agrupar os colaboradores por gerente, foi necessário realizar uma mescla e
 ### 13. Justificativa: Mesclar vs Atribuir  
 Utilizamos **mesclar** pois preserva a estrutura da tabela base e permite trazer colunas relacionadas sem sobrescrever os dados originais.
 
-![print8](./Docs/print8.jpeg)
+![print8](./Docs/print8.jpg)
 
 ---
 
@@ -81,11 +82,11 @@ Utilizamos **mesclar** pois preserva a estrutura da tabela base e permite trazer
 
 ### 15. Colaboradores por Gerente
 - Visual de agrupamento  
-![print9](./Docs/print9.jpeg)
+![print9](./Docs/print9.jpg)
 
 ### 16. Eliminação de Colunas
 - Print das tabelas finais com colunas relevantes  
-![print10](./Docs/print10.jpeg)
+![print10](./Docs/print10.jpg)
 
 ---
 
@@ -105,7 +106,5 @@ Este projeto demonstra a capacidade de integrar dados em nuvem, aplicar transfor
 
 ## 👤 Autor
 
-**Victor Biscaia**  
-[LinkedIn](https://www.linkedin.com/in/victor-biscaia-097603371/)
-
----
+**Victor Gaglianone Biscaia**  
+[LinkedIn](https://www.linkedin.com/in/seu-usuario-aqui)
