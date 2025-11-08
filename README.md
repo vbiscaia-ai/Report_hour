@@ -106,5 +106,5 @@ Este projeto demonstra a capacidade de integrar dados em nuvem, aplicar transfor
 
 ## 👤 Autor
 
-**Victor Gaglianone Biscaia**  
-[LinkedIn](https://www.linkedin.com/in/seu-usuario-aqui)
+**Victor Biscaia**  
+[LinkedIn](htthttps://www.linkedin.com/in/victor-biscaia-097603371/)
